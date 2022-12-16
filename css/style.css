@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FAF9F6;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+}
+
+p {
+  font-size: 24px;
+  font-family: 'Mako', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  padding: 20px;
+  font-family: 'Mako', 'Trebuchet MS', Arial, sans-serif;
+  background-color: 	#000033;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 56px;
+}
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Mako','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+
+.header div ul {
+  list-style: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.lofi {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../Assets/loficode.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  background-color: #FAF9F6;
+  padding: 20px;
+}
+
+section {
+  flex: 3;
+  background-color: #FAF9F6;
+  padding: 20px;
+}
+
+.vertical-row {
+  float: left;
+  height: 1425px;
+  width: 2px;
+  background-color: black
+ } 
+
+.section-title {
+  margin-bottom: 200px;
+  font-size: 36px;
+  font-family: 'Mako', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  color: #000033;
+}
+
+.section-title-extra-space {
+  margin-bottom: 900px;
+  font-size: 36px;
+  font-family: 'Mako', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  color: #000033;
+}
+
+.content img {
+  height: 200px;
+  float: left;
+  padding: 25px;
+}
+
+.content p {
+  padding: 25px;
+  margin-left: 25px;
+}
+
+.box {
+  height: 500px;
+  width: 500px;
+}
+
+.large ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+}
+
+.large li {
+  padding-top: 30px;
+  list-style: none;
+}
+
+.large li img {
+  height: 480px;
+  width: 848px;
+  padding: 25px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.progress ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+}
+
+.progress li {
+  flex: 1;
+  list-style: none;
+}
+
+.progress li img {
+  height: 360px;
+  width: 640px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.information {
+  margin-top: 575px;
+  margin-left: 50px;
+}
+
+.info {
+  font-size: 24px;
+}
+
+.large img:hover, .progress img:hover, 
+select:hover, button:hover {
+box-shadow: 0 0 10px rgba(86, 82, 82, 0.719);
+}
