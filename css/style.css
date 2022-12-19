@@ -5,11 +5,11 @@
 }
 
 body {
-  background-color: #FAF9F6;
+  background-color: #ddbb55;
 }
 
 a {
-  color: #808080;
+  color: #fff2f2;
   text-decoration: none;
 }
 
@@ -21,8 +21,8 @@ p {
 .header {
   padding: 20px;
   font-family: 'Mako', 'Trebuchet MS', Arial, sans-serif;
-  background-color: 	#000033;
-  color: #ffffff;
+  background-color: 	#116c34;
+  color: #ee0000;
 }
 
 .header h1 {
@@ -63,13 +63,13 @@ main {
 
 aside {
   flex: 1;
-  background-color: #FAF9F6;
+  background-color: #b5f30a;
   padding: 20px;
 }
 
 section {
   flex: 3;
-  background-color: #FAF9F6;
+  background-color: #0bb931;
   padding: 20px;
 }
 
